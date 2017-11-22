@@ -479,6 +479,16 @@ adPlacements: ["superbanner","sky","inpage"],
 ```
 #### Mobile
 
+#### Reloading
+
+Reload ads when switching image by calling `ASCDP.adS.reloadAds();`
+
+#### Ad insertion
+
+After every fifth image switch, insert mrec by setting innerHTML:
+
+    <div id="mrec_{{ random }}"><script>ASCDP.adS.renderAd("mrec_{{ random }}")</script></div>
+
 ##### Placement codes
 
 `	adPlacements: ["mrec","inpage"],`
