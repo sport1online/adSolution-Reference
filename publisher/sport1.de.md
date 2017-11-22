@@ -81,7 +81,7 @@ adPlacements: ["superbanner","sky","billboard","mrec","inpage","mrec_btf","mrec_
 
 ##### Placement codes
 
-`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","mrec_btf_5",","inpage"],`
+`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","mrec_btf_5","inpage"],`
 
 ##### Placement sizes
 
