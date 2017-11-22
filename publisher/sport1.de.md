@@ -25,90 +25,135 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 ##### Placement codes
 
-```
-adPlacements: ["superbanner","sky","billboard","mrec","inpage","mrec_btf","mrec_btf_2","mrec_btf_3","superbanner_btf","sky_btf"],
-```
+    adPlacements: ["superbanner","sky","billboard","mrec","inpage","mrec_btf","mrec_btf_2","mrec_btf_3","superbanner_btf","sky_btf"]
 
 ##### Placement sizes
 
-```
-	adSlotSizes: {
-		"superbanner": [{
-			"minWidth": 1,
-			"sizes": [[728,90],[728,600],[1000,600]]
-		}],
-     
-		"sky": [{
-			"minWidth": 1,
-			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
-     
-		"billboard": [{
-			"minWidth": 799,
-			"sizes": [[800,250]]
-		},{
-			"minWidth": 969,
-			"sizes": [[970,250],[800,250]]
-		}],
-     
-		"mrec": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[300,600]]
-		}],
-     
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[1000,300]]
-		}],
-		"mrec_btf": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[300,600]]
-		}],
-		 
-		"superbanner_btf": [{
-			"minWidth": 1,
-			"sizes": [[728,90],[728,600]]
-		}],
+    adSlotSizes: {
+        "superbanner": [{
+            "minWidth": 1,
+            "sizes": [
+                [728, 90],
+                [728, 600],
+                [1000, 600]
+            ]
+        }],
+        "sky": [{
+            "minWidth": 1,
+            "sizes": [
+                [160, 600],
+                [120, 600],
+                [300, 600],
+                [500, 1000],
+                [1000, 1000]
+            ]
+        }],
+        "billboard": [{
+            "minWidth": 799,
+            "sizes": [
+                [800, 250]
+            ]
+        }, {
+            "minWidth": 969,
+            "sizes": [
+                [970, 250],
+                [800, 250]
+            ]
+        }],
+        "mrec": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }],
+        "inpage": [{
+            "minWidth": 1,
+            "sizes": [
+                [1, 1],
+                [1000, 300]
+            ]
+        }],
+        "mrec_btf": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250],
+                [300, 600]
+            ]
+        }],
+        "mrec_btf_2": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }],
+        "mrec_btf_3": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }],
+        "superbanner_btf": [{
+            "minWidth": 1,
+            "sizes": [
+                [728, 90],
+                [728, 600]
+            ]
+        }],
+        "sky_btf": [{
+            "minWidth": 1,
+            "sizes": [
+                [160, 600],
+                [120, 600],
+                [300, 600],
+                [500, 1000],
+                [1000, 1000]
+            ]
+        }]
+    }
 
-		"sky_btf": [{
-			"minWidth": 1,
-			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
-    
-	},
-```
 #### Mobile
 
 ##### Placement codes
 
-`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","mrec_btf_5","inpage"],`
+    adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","mrec_btf_5","inpage"]
 
 ##### Placement sizes
 
-```
-	adSlotSizes: {
-		"banner": [{
-			"minWidth": 1,
-			"sizes": [[320,50],[320,75],[320,80]]
-		}],
-     
-		"mrec": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
-     
-		"mrec_btf": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
-
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[1000,300]]
-		}],
-     
-	},
-```
+    adSlotSizes: {
+        "banner": [{
+            "minWidth": 1,
+            "sizes": [
+                [320, 50],
+                [320, 75],
+                [320, 80]
+            ]
+        }],
+        "mrec": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250],
+                [320, 75],
+                [320, 160],
+                [300, 300]
+            ]
+        }],
+        "mrec_btf": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250],
+                [320, 75],
+                [320, 160],
+                [300, 300]
+            ]
+        }],
+        "inpage": [{
+            "minWidth": 1,
+            "sizes": [
+                [1, 1],
+                [1000, 300]
+            ]
+        }]
+    }
 
 ### sport1_index
 
@@ -116,95 +161,133 @@ adPlacements: ["superbanner","sky","billboard","mrec","inpage","mrec_btf","mrec_
 
 ##### Placement codes
 
-```
-adPlacements: ["superbanner","sky","sky_btf","billboard","billboard_btf","mrec","mrec_btf","mrec_btf_2","inpage"],
-```
+    adPlacements: ["superbanner","sky","sky_btf","billboard","billboard_btf","mrec","mrec_btf","mrec_btf_2","inpage"]
 
 ##### Placement sizes 
 
-```
-	adSlotSizes: {
-		"superbanner": [{
-			"minWidth": 1,
-			"sizes": [[728,90],[728,600],[1000,600]]
-		}],
-     
-		"sky": [{
-			"minWidth": 1,
-			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
+    adSlotSizes: {
+        "superbanner": [{
+            "minWidth": 1,
+            "sizes": [
+                [728, 90],
+                [728, 600],
+                [1000, 600]
+            ]
+        }],
+        "sky": [{
+            "minWidth": 1,
+            "sizes": [
+                [160, 600],
+                [120, 600],
+                [300, 600],
+                [500, 1000],
+                [1000, 1000]
+            ]
+        }],
+        "sky_btf": [{
+            "minWidth": 1,
+            "sizes": [
+                [160, 600],
+                [120, 600],
+                [300, 600],
+                [500, 1000],
+                [1000, 1000]
+            ]
+        }],
+        "billboard": [{
+            "minWidth": 799,
+            "sizes": [
+                [800, 250]
+            ]
+        }, {
+            "minWidth": 969,
+            "sizes": [
+                [970, 250],
+                [800, 250]
+            ]
+        }],
+        "billboard_btf": [{
+            "minWidth": 799,
+            "sizes": [
+                [800, 250]
+            ]
+        }, {
+            "minWidth": 969,
+            "sizes": [
+                [970, 250],
+                [800, 250]
+            ]
+        }],
+        "mrec": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }],
+        "mrec_btf": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250],
+                [300, 600]
+            ]
+        }],
+        "mrec_btf_2": [{
+                "minWidth": 1,
+                "sizes": [
+                    [300, 250]
+                ]]
+        }], "inpage": [{
+            "minWidth": 1,
+            "sizes": [
+                [1, 1],
+                [1000, 300]
+            ]
+        }]
+    }
 
-		"sky_btf": [{
-			"minWidth": 1,
-			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
-     
-		"billboard": [{
-			"minWidth": 799,
-			"sizes": [[800,250]]
-		},{
-			"minWidth": 969,
-			"sizes": [[970,250],[800,250]]
-		}],
-
-		"billboard_btf": [{
-			"minWidth": 799,
-			"sizes": [[800,250]]
-		},{
-			"minWidth": 969,
-			"sizes": [[970,250],[800,250]]
-		}],
-     
-		"mrec": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[300,600]]
-		}],
-
-		"mrec_btf": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[300,600]]
-		}],
-     
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[1000,300]]
-		}],
-
-    
-	},
-```
 #### Mobile
 
 ##### Placement codes
 
-`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","inpage"],`
+    adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","inpage"]
 
 ##### Placement sizes
 
-```
-	adSlotSizes: {
-		"banner": [{
-			"minWidth": 1,
-			"sizes": [[320,50],[320,75],[320,80]]
-		}],
-     
-		"mrec": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
-     
-		"mrec_btf": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
-
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[1000,300]]
-		}],
-     
-	},
-```
+    adSlotSizes: {
+        "banner": [{
+            "minWidth": 1,
+            "sizes": [
+                [320, 50],
+                [320, 75],
+                [320, 80]
+            ]
+        }],
+        "mrec": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250],
+                [320, 75],
+                [320, 160],
+                [300, 300]
+            ]
+        }],
+        "mrec_btf": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250],
+                [320, 75],
+                [320, 160],
+                [300, 300]
+            ]
+        }],
+        "inpage": [{
+            "minWidth": 1,
+            "sizes": [
+                [1, 1],
+                [1000, 300]
+            ]
+        }]
+    }
 
 ### sport1_story
 
@@ -212,82 +295,120 @@ adPlacements: ["superbanner","sky","sky_btf","billboard","billboard_btf","mrec",
 
 ##### Placement codes
 
-```
-adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],
-```
+    adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"]
 
 ##### Placement sizes
 
-```
-	adSlotSizes: {
-		"superbanner": [{
-			"minWidth": 1,
-			"sizes": [[728,90],[728,600],[1000,600]]
-		}],
-     
-		"sky": [{
-			"minWidth": 1,
-			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
-     
-		"billboard": [{
-			"minWidth": 799,
-			"sizes": [[800,250]]
-		},{
-			"minWidth": 969,
-			"sizes": [[970,250],[800,250]]
-		}],
-     
-		"mrec": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[300,600]]
-		}],
+    adSlotSizes: {
+        "superbanner": [{
+            "minWidth": 1,
+            "sizes": [
+                [728, 90],
+                [728, 600],
+                [1000, 600]
+            ]
+        }],
+        "sky": [{
+            "minWidth": 1,
+            "sizes": [
+                [160, 600],
+                [120, 600],
+                [300, 600],
+                [500, 1000],
+                [1000, 1000]
+            ]
+        }],
+        "billboard": [{
+            "minWidth": 799,
+            "sizes": [
+                [800, 250]
+            ]
+        }, {
+            "minWidth": 969,
+            "sizes": [
+                [970, 250],
+                [800, 250]
+            ]
+        }],
+        "mrec": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }],
+        "mrec_btf": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250],
+                [300, 600]
+            ]
+        }],
+        "mrec_btf_2": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }],
+        "mrec_btf_3": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }],
+        "inpage": [{
+            "minWidth": 1,
+            "sizes": [
+                [1, 1],
+                [640, 360],
+                [1000, 300]
+            ]
+        }]
+    }
 
-		"mrec_btf": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[300,600]]
-		}],
-     
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[640,360],[1000,300]]
-		}],
-
-    
-	},
-```
 #### Mobile
 
 ##### Placement codes
 
-`	adPlacements: ["banner","mrec","mrec_btf","inpage"],`
+    adPlacements: ["banner","mrec","mrec_btf","inpage"]
 
 ##### Placement sizes
 
-```
-	adSlotSizes: {
-		"banner": [{
-			"minWidth": 1,
-			"sizes": [[320,50],[320,75],[320,80]]
-		}],
-     
-		"mrec": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
-     
-		"mrec_btf": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
-
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[640,360],[1000,300]]
-		}],
-     
-	},
-```
+    adSlotSizes: {
+        "banner": [{
+            "minWidth": 1,
+            "sizes": [
+                [320, 50],
+                [320, 75],
+                [320, 80]
+            ]
+        }],
+        "mrec": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250],
+                [320, 75],
+                [320, 160],
+                [300, 300]
+            ]
+        }],
+        "mrec_btf": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250],
+                [320, 75],
+                [320, 160],
+                [300, 300]
+            ]
+        }],
+        "inpage": [{
+            "minWidth": 1,
+            "sizes": [
+                [1, 1],
+                [640, 360],
+                [1000, 300]
+            ]
+        }]
+    }
 
 ### sport1_statistiken
 
@@ -295,75 +416,96 @@ adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","m
 
 ##### Placement codes
 
-```
-adPlacements: ["superbanner","sky","billboard","billboard_btf","inpage"],
-```
+    adPlacements: ["superbanner","sky","billboard","billboard_btf","inpage"]
 
 ##### Placement sizes
 
-```
-	adSlotSizes: {
-		"superbanner": [{
-			"minWidth": 1,
-			"sizes": [[728,90],[728,600],[1000,600]]
-		}],
-     
-		"sky": [{
-			"minWidth": 1,
-			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
-     
-		"billboard": [{
-			"minWidth": 799,
-			"sizes": [[800,250]]
-		},{
-			"minWidth": 969,
-			"sizes": [[970,250],[800,250]]
-		}],
+    adSlotSizes: {
+        "superbanner": [{
+            "minWidth": 1,
+            "sizes": [
+                [728, 90],
+                [728, 600],
+                [1000, 600]
+            ]
+        }],
+        "sky": [{
+            "minWidth": 1,
+            "sizes": [
+                [160, 600],
+                [120, 600],
+                [300, 600],
+                [500, 1000],
+                [1000, 1000]
+            ]
+        }],
+        "billboard": [{
+            "minWidth": 799,
+            "sizes": [
+                [800, 250]
+            ]
+        }, {
+            "minWidth": 969,
+            "sizes": [
+                [970, 250],
+                [800, 250]
+            ]
+        }],
+        "billboard_btf": [{
+            "minWidth": 799,
+            "sizes": [
+                [800, 250]
+            ]
+        }, {
+            "minWidth": 969,
+            "sizes": [
+                [970, 250],
+                [800, 250]
+            ]
+        }],
+        "inpage": [{
+            "minWidth": 1,
+            "sizes": [
+                [1, 1],
+                [1000, 300]
+            ]
+        }]
+    }
 
-		"billboard_btf": [{
-			"minWidth": 799,
-			"sizes": [[800,250]]
-		},{
-			"minWidth": 969,
-			"sizes": [[970,250],[800,250]]
-		}],
-     
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[1000,300]]
-		}],
-
-    
-	},
-```
 #### Mobile
 
 ##### Placement codes
 
-`	adPlacements: ["banner","mrec","inpage"],`
+    adPlacements: ["banner","mrec","inpage"]
 
 ##### Placement sizes
 
-```
-	adSlotSizes: {
-		"banner": [{
-			"minWidth": 1,
-			"sizes": [[320,50],[320,75],[320,80]]
-		}],
-     
-		"mrec": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
-
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[1000,300]]
-		}],
-     
-	},
-```
+    adSlotSizes: {
+        "banner": [{
+            "minWidth": 1,
+            "sizes": [
+                [320, 50],
+                [320, 75],
+                [320, 80]
+            ]
+        }],
+        "mrec": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250],
+                [320, 75],
+                [320, 160],
+                [300, 300]
+            ]
+        }],
+        "inpage": [{
+            "minWidth": 1,
+            "sizes": [
+                [1, 1],
+                [1000, 300]
+            ]
+        }]
+    }
 
 ### sport1_liveticker
 
@@ -371,80 +513,105 @@ adPlacements: ["superbanner","sky","billboard","billboard_btf","inpage"],
 
 ##### Placement codes
 
-```
-adPlacements: ["superbanner","sky","billboard","billboard_btf","inpage"],
-```
+    adPlacements: ["superbanner","sky","billboard","billboard_btf","inpage"]
 
 ##### Placement sizes
 
-```
-	adSlotSizes: {
-		"superbanner": [{
-			"minWidth": 1,
-			"sizes": [[728,90],[728,600],[1000,600]]
-		}],
-     
-		"sky": [{
-			"minWidth": 1,
-			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
-     
-		"billboard": [{
-			"minWidth": 799,
-			"sizes": [[800,250]]
-		},{
-			"minWidth": 969,
-			"sizes": [[970,250],[800,250]]
-		}],
+    adSlotSizes: {
+        "superbanner": [{
+            "minWidth": 1,
+            "sizes": [
+                [728, 90],
+                [728, 600],
+                [1000, 600]
+            ]
+        }],
+        "sky": [{
+            "minWidth": 1,
+            "sizes": [
+                [160, 600],
+                [120, 600],
+                [300, 600],
+                [500, 1000],
+                [1000, 1000]
+            ]
+        }],
+        "billboard": [{
+            "minWidth": 799,
+            "sizes": [
+                [800, 250]
+            ]
+        }, {
+            "minWidth": 969,
+            "sizes": [
+                [970, 250],
+                [800, 250]
+            ]
+        }],
+        "billboard_btf": [{
+            "minWidth": 799,
+            "sizes": [
+                [800, 250]
+            ]
+        }, {
+            "minWidth": 969,
+            "sizes": [
+                [970, 250],
+                [800, 250]
+            ]
+        }],
+        "inpage": [{
+            "minWidth": 1,
+            "sizes": [
+                [1, 1],
+                [1000, 300]
+            ]
+        }]
+    }
 
-		"billboard_btf": [{
-			"minWidth": 799,
-			"sizes": [[800,250]]
-		},{
-			"minWidth": 969,
-			"sizes": [[970,250],[800,250]]
-		}],
-     
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[1000,300]]
-		}],
-
-    
-	},
-```
 #### Mobile
 
 ##### Placement codes
 
-`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","mrec_btf_5","inpage"],`
+    adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","mrec_btf_5","inpage"]
 
 ##### Placement sizes
 
-```
-	adSlotSizes: {
-		"banner": [{
-			"minWidth": 1,
-			"sizes": [[320,50],[320,75],[320,80]]
-		}],
-     
-		"mrec": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
-
-		"mrec_btf": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
-
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[1000,300]]
-		}],
-     
-	},
-```
+    adSlotSizes: {
+        "banner": [{
+            "minWidth": 1,
+            "sizes": [
+                [320, 50],
+                [320, 75],
+                [320, 80]
+            ]
+        }],
+        "mrec": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250],
+                [320, 75],
+                [320, 160],
+                [300, 300]
+            ]
+        }],
+        "mrec_btf": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250],
+                [320, 75],
+                [320, 160],
+                [300, 300]
+            ]
+        }],
+        "inpage": [{
+            "minWidth": 1,
+            "sizes": [
+                [1, 1],
+                [1000, 300]
+            ]
+        }]
+    }
 
 ### sport1_bildergalerie
 
@@ -452,31 +619,31 @@ adPlacements: ["superbanner","sky","billboard","billboard_btf","inpage"],
 
 ##### Placement codes
 
-```
-adPlacements: ["superbanner","sky","inpage"],
-```
+    adPlacements: ["superbanner","sky"]
 
 ##### Placement sizes
 
-```
-	adSlotSizes: {
-		"superbanner": [{
-			"minWidth": 1,
-			"sizes": [[728,90],[728,600],[1000,600]]
-		}],
-     
-		"sky": [{
-			"minWidth": 1,
-			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
+    adSlotSizes: {
+        "superbanner": [{
+            "minWidth": 1,
+            "sizes": [
+                [728, 90],
+                [728, 600],
+                [1000, 600]
+            ]
+        }],
+        "sky": [{
+            "minWidth": 1,
+            "sizes": [
+                [160, 600],
+                [120, 600],
+                [300, 600],
+                [500, 1000],
+                [1000, 1000]
+            ]
+        }]
+    }
 
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[1000,300]]
-		}],
-     
-	},
-```
 #### Mobile
 
 #### Reloading
@@ -491,23 +658,48 @@ After every fifth image switch, insert mrec by setting innerHTML:
 
 ##### Placement codes
 
-`	adPlacements: ["mrec","inpage"],`
+    adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","mrec_btf_5","inpage"]
 
 ##### Placement sizes
 
-```
-	adSlotSizes: {
-		"mrec": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
-
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[1000,300]]
-		}],     
-	},
-```
+    adSlotSizes: {
+        "mrec": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }],
+        "mrec_btf": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }],
+        "mrec_btf_2": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }],
+        "mrec_btf_3": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }],
+        "mrec_btf_4": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }],
+        "mrec_btf_5": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }]
+    }
 
 ## Sport1 News App
 
