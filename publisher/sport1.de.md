@@ -232,11 +232,12 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
             ]
         }],
         "mrec_btf_2": [{
-                "minWidth": 1,
-                "sizes": [
-                    [300, 250]
-                ]]
-        }], "inpage": [{
+            "minWidth": 1,
+            "sizes": [
+                [300, 250]
+            ]
+        }],
+        "inpage": [{
             "minWidth": 1,
             "sizes": [
                 [1, 1],
@@ -577,6 +578,8 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 ##### Placement sizes
 
+TBD
+
     adSlotSizes: {
         "banner": [{
             "minWidth": 1,
@@ -658,45 +661,30 @@ After every fifth image switch, insert mrec by setting innerHTML:
 
 ##### Placement codes
 
-    adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","mrec_btf_5","inpage"]
+    adPlacements: ["banner","mrec","inpage"]
 
 ##### Placement sizes
 
     adSlotSizes: {
+        "banner": [{
+            "minWidth": 1,
+            "sizes": [
+                [320, 50],
+                [320, 75],
+                [320, 80]
+            ]
+        }],
         "mrec": [{
             "minWidth": 1,
             "sizes": [
                 [300, 250]
             ]
         }],
-        "mrec_btf": [{
+        "inpage": [{
             "minWidth": 1,
             "sizes": [
-                [300, 250]
-            ]
-        }],
-        "mrec_btf_2": [{
-            "minWidth": 1,
-            "sizes": [
-                [300, 250]
-            ]
-        }],
-        "mrec_btf_3": [{
-            "minWidth": 1,
-            "sizes": [
-                [300, 250]
-            ]
-        }],
-        "mrec_btf_4": [{
-            "minWidth": 1,
-            "sizes": [
-                [300, 250]
-            ]
-        }],
-        "mrec_btf_5": [{
-            "minWidth": 1,
-            "sizes": [
-                [300, 250]
+                [1, 1],
+                [1000, 300]
             ]
         }]
     }
